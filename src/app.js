@@ -28,24 +28,7 @@ httpsServer.listen(listenPort, () => {
 let workers = []
 let nextMediasoupWorkerIdx = 0
 
-/**
- * roomList
- * {
- *  room_id: Room {
- *      id:
- *      router:
- *      peers: {
- *          id:,
- *          name:,
- *          master: [boolean],
- *          transports: [Map],
- *          producers: [Map],
- *          consumers: [Map],
- *          rtpCapabilities:
- *      }
- *  }
- * }
- */
+
 let roomList = new Map();
 
 (async () => {
