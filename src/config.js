@@ -33,11 +33,6 @@ export const mediasoup = {
             'rtp',
             'srtp',
             'rtcp'
-            // 'rtx',
-            // 'bwe',
-            // 'score',
-            // 'simulcast',
-            // 'svc'
         ]
     },
     // Router setting
