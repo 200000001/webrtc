@@ -17,8 +17,8 @@ const getLocalIp = () => {
 
 export const listenIp = '0.0.0.0'
 export const listenPort = 3010
-export const sslCrt = '../ssl/cert.pem'
-export const sslKey = '../ssl/key.pem'
+export const sslCrt = './ssl/cert.pem'
+export const sslKey = './ssl/key.pem'
 export const mediasoup = {
     // Worker settings
     numWorkers: Object.keys(cpus()).length,
